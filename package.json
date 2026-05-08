@@ -1,0 +1,29 @@
+{
+  "name": "ticket-free",
+  "version": "1.0.0",
+  "description": "Discord ticket bot with SQLite persistence.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --check src/index.js && node --check src/config.js && node --check src/database/ticketStore.js && node --check src/utils/transcript.js && node --check src/events/interactionCreate.js && node --check src/events/messageCreate.js && node --check src/events/ready.js && node --check src/handlers/command.js && node --check src/handlers/event.js && node --check src/commands/comandos/ticket.js",
+    "qa": "npm test"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "tickets",
+    "sqlite"
+  ],
+  "author": "Olympus Studio",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.3.1"
+  }
+}
