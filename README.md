@@ -20,7 +20,7 @@
 
 ## Sobre
 
-**Ticket Free** e um bot open source da Olympus Studio para criar e gerenciar tickets no Discord. Ele foi pensado para servidores que precisam separar atendimentos por categoria, registrar historico de canais e evitar tickets duplicados do mesmo usuario.
+**Ticket Free** e a evolucao do projeto `olympus-ticket-community`: um bot open source da Olympus Studio para criar e gerenciar tickets no Discord gratuitamente. Ele foi pensado para servidores que precisam separar atendimentos por categoria, registrar historico de canais e evitar tickets duplicados do mesmo usuario.
 
 O projeto usa `discord.js` v14, configuracao por `.env` e persistencia local em SQLite via `node:sqlite`, sem exigir um banco externo para ambientes pequenos e medios.
 
